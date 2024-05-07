@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: navy;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: navy;
+  background: #fff;
+}
+
+header img {
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+header p {
+  font-size: 1.3rem;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+/* Main */
+.main-title {
+  font-size: 2.2rem;
+  color: lime;
+  margin: 0;
+}
+
+.statement {
+  font-size: 1.2rem;
+}
+
+main span {
+  color: rgb(237, 233, 10);
+}
+
+main {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+main ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.icon {
+  width: 40px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* Projects */
+.project-links ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-links ul li img {
+  width: 400px;
+}
+
+.project-links ul p {
+  font-size: 1.3rem;
+}
+
+.project-links ul li {
+  margin-bottom: 50px;
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.skills div {
+  background: rgb(115, 115, 115);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 900px) {
+  header p {
+    font-size: 1.75rem;
+  }
+  main h1 {
+    font-size: 3rem;
+  }
+  .intro-container {
+    display: flex;
+    margin-left: 100px;
+  }
+  .introduction {
+    text-align: left;
+    margin-right: 130px;
+    width: 900px;
+  }
+  .icon-container ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon {
+    width: 60px;
+  }
+  .projects-skills-container {
+    display: flex;
+    margin-top: 50px;
+  }
+  .projects {
+    width: 900px;
+    text-align: left;
+    margin-left: 100px;
+  }
+  .skills-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .skills {
+    font-size: 1.5rem;
+  }
+  .skills div {
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+  .statement {
+    font-size: 1.4rem;
+  }
+}
